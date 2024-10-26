@@ -1,1 +1,0 @@
-# Parallax Example: Mountains
