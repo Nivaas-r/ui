@@ -1,0 +1,14 @@
+
+.footer{
+    padding-top: 3vh;
+    /* background-color: rgb(33, 45, 96); */
+    background-color:#033b4a;     
+    /* background-color: #cdf3e5; */
+	height: 10vh;
+    text-align:center ;
+	text-size-adjust: 10px;
+}
+
+#text{
+    color: white;
+}

@@ -1,0 +1,151 @@
+.latest-news {
+  text-align: center; /* Optional */
+  padding: 20px;
+  background: -webkit-linear-gradient(to right, #f0f0f0, #e0e0e0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.latest-news h2 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #333; /* Adjust text color */
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.news-card-list {
+  margin-top: 10vh;
+  display: flex; /* Use flexbox for responsiveness */
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  width: 460px; /* Adjust width for responsiveness */
+  box-sizing: border-box;
+  background-color: #fff;
+  cursor: pointer; /* Indicate clickable cards */
+  transition-duration: 2s;
+
+}
+
+
+.news-card:hover {
+  transition-duration: 0.5s;
+
+  box-shadow: rgba(226, 203, 237, 0.425) 0px 50px 100px -20px, rgba(101, 42, 238, 0.671) 0px 30px 60px -30px, rgba(90, 96, 215, 0.54) 0px -2px 6px 0px inset;
+
+
+}
+
+.news-card img {
+  width: 100%;
+  height: 150px; /* Adjust image height */
+  object-fit: cover; /* Scale proportionally to fill container */
+}
+
+.news-card .content {
+  background-color: #fff;
+  padding: 10px;
+  display: block;
+  background-color: #fff;
+    padding: 10px;
+    display: block;
+    margin-top: 0px;
+    text-align: -webkit-auto;
+    margin-bottom: 0px;
+
+}
+
+.news-card h3 {
+  margin-bottom: 5px; /* Add space below title */
+}
+
+/* .new-button button {
+  align-content: center;
+  justify-content: center;
+  display: inline-flex;
+  position: relative;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50; 
+  color: #fff;
+  cursor: pointer;
+}
+
+.news-card button:hover {
+  background-color: #3e8e41; 
+} */
+.news-card button {
+  align-content: center;
+  justify-content: center;
+  display: inline-flex;
+  position: relative;
+  padding: 5px 0px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50; 
+  color: #fff;
+  width: 100%;
+}
+.news-card button:hover {
+  background-color: rgba(128, 128, 128, 0.341);
+  transition: 0.5s;
+  background-color: #3e8e41; 
+
+}
+
+.detailed-view {
+  position: fixed; /* Optional for modal window style */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 10; /* Set higher z-index to appear over other content */
+}
+
+.detailed-view img {
+  width: 100%;
+  max-width: 600px; /* Set a maximum width for responsiveness */
+  margin-bottom: 10px;
+}
+
+.detailed-view button,
+.detailed-view a {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px;
+  text-decoration: none; /* Remove underline from anchor tag */
+}
+
+.detailed-view button {
+  background-color: #fb3f3f; /* Red button */
+}
+
+.detailed-view a {
+  background-color: #6cf06c; /* Green button */
+  color: #fff;
+}
+
+.detailed-view button:hover,
+.detailed-view a:hover {
+  opacity: 0.8; /* Slightly reduce opacity on hover */
+}

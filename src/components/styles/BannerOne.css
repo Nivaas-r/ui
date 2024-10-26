@@ -1,0 +1,51 @@
+
+  /* General carousel styling */
+  .corosel {
+    width: 100%; /* Ensure carousel takes up full width */
+    margin: 0 auto; 
+    /* padding-top: 65px; */
+    /* Center the carousel horizontally */
+    height: 540px; /* Set height based on image height */
+  }
+  
+  .corosel .carousel-item {
+    height: 100%; /* Match container height */
+  }
+  
+  .corosel .carousel-item img {
+    object-fit: contain; /* Scale proportionally to fit within container */
+    width: 100%; /* Allow image to fit naturally within height */
+    height: 100%; /* Fill carousel item vertically */
+  }
+  
+  /* .corosel .carousel-caption {
+    color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); 
+  bottom: 20px;
+  } */
+  
+  .corosel .carousel-caption h3 {
+    color: rgb(5, 72, 93);
+    font-size: 3em; /* Adjust heading size */
+     margin-bottom: 14px;
+     letter-spacing: 10px;
+background-blend-mode: overlay;
+background-color: white;
+   /* mix-blend-mode: multiply;   */
+
+    /* Add some spacing below heading */
+  }
+  
+  .corosel .carousel-caption p {
+    font-size: 1.2em; /* Adjust paragraph size */
+    line-height: 1.5; /* Adjust line spacing for readability */
+color: white;
+  }
+  /* Hide navigation arrows */
+  .corosel .carousel-control-prev,
+  .corosel .carousel-control-next,
+  .corosel .carousel-indicators
+ {
+    display: none; 
+  }
+ 

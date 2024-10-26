@@ -1,0 +1,109 @@
+
+
+
+:root {
+	--mainColor: white;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #48b4bb;
+	--textColor: #29335c;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	height: 85px;
+	width: 100%;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	z-index: 10;
+}
+.App-logo{
+	display: flex;
+	justify-content: left;
+	height: 80px;
+	padding: 0 2rem;
+cursor: pointer;
+font-size: 2rem;
+}
+
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+	font-size: 1rem;
+    
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+	 /* color: #48b4bb; */
+	border-bottom: 3px solid var(--secondaryColor); 
+
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		align-content: center;
+		justify-content: center;
+		visibility: visible;
+		display: inline-block;
+		position: relative;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+		z-index: 2;
+	}
+	 
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
+

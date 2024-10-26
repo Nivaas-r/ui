@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 80px;
+	  width: 100%;
+    
+    background-blend-mode: screen;
+ background-color:#033b4a;     
+ /* background: rgb(33, 45, 96); */
+    z-index: 6;
+    /* color: #fff; */
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  .logo img {
+    width: 120px;
+    height: auto;  
+    display: block; 
+  }
+  
+  .links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .link:hover {
+    color: #5ce1e6;
+    scale: 1.05;
+    border-bottom: 3px solid  #ea33a6;
+  }
+  

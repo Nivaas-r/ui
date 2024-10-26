@@ -1,0 +1,77 @@
+.appointment-booking {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  /* background: #d9e7e8;  */
+  background-color: #cdf3e5; 
+
+}
+.appointment-booking h2{
+  font-size: 2.5rem;
+  /* font-family: 'smartx'; */
+  margin-top: 20px;
+  color: #076c85;
+  text-decoration: solid;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.appointment-booking button {
+  background-color: #076c85; 
+  border: none;
+  color: white;
+  margin-top: 5vh !important;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer !important;
+  border-radius: 5px;
+}
+
+.appointment-booking  button:hover {
+  background-color:  #ea33a6;
+}
+
+
+.appointment-booking form {
+  margin-top: 20px;
+  padding: 20px;
+  width: 30%;
+  background-color: white;
+  /* color: rgb(166, 0, 255); */
+  color: #076c85;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  display:inline-block; 
+}
+
+.appointment-booking form.show { 
+  display: inline-block;
+  padding: 20px;
+  z-index: 10; 
+  position:hidden; 
+}
+
+.appointment-booking label {
+  margin-bottom: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.appointment-booking input,
+.appointment-booking select,
+.appointment-booking textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}

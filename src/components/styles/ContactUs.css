@@ -1,0 +1,138 @@
+.about-us {
+    text-align: center; 
+    padding: 20px;
+    /* background-color: rgb(31, 31, 89); */
+     background-color: #cdf3e5; 
+     background-image:url('../assets/designContact.png') ; 
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ mix-blend-mode: multiply;
+    /* display: flex; */
+  }
+  .content{
+    margin-top: 6vh;
+    justify-content: center;
+    align-items: start;
+        display: flex;
+        column-gap: 17cqmin;
+        margin-bottom: 3vh;
+
+
+  }
+  /* .links, a{
+    display: block;
+    color: #253227;
+    text-decoration: none;
+  } */
+  a:hover{
+    color:  #ea33a6;
+   
+  }
+
+  
+ h3 {
+  margin-bottom: 1rem;
+  color: #076c85;
+  text-decoration: solid;
+  letter-spacing: 3px; 
+}
+
+
+  .about-us h2{
+    font-size: 2.5rem;
+    color: #076c85 ;
+    text-decoration: solid;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+  
+  .hospital-logo {
+    height: 25vh;
+    border-radius: 85%;
+  }
+  
+  .contact-info {
+    /* margin-top: 20px; */
+    color: #253227;
+    width: 25%;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px; 
+    color:#253227
+  }
+  
+  
+  .map-link {
+    display: block; 
+    /* color: rgb(75, 99, 217); */
+    color:#253227;
+    text-decoration: none; 
+    margin-top: 10px; 
+  }
+  
+  /* .map-link:hover {
+    color: #5ce1e6;
+    scale: 1.05;
+    border-bottom: 3px solid  #ea33a6;  } */
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.mailing-list-signup {
+  align-items: start;
+  text-align: center;
+  /* margin: 2rem auto; */
+  max-width: 500px;
+}
+
+
+.mailing-list-signup form p {
+  margin-right: 1rem;
+  padding: 0.7rem 1rem;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #253227;
+}
+
+.mailing-list-signup form {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mailing-list-signup input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  /* width: 100%; */
+}
+
+.mailing-list-signup input.invalid-email {
+  border-color: #ff0000;
+}
+
+.mailing-list-signup button {
+  align-items: end;
+  justify-content: right;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 4px;
+  /* background-color: #007bff; */
+  background-color:  #076c85;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.mailing-list-signup .error-message {
+  color: #ff0000;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}

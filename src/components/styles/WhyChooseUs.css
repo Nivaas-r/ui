@@ -1,0 +1,62 @@
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/WelcomeBackground.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 0%;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.home-content h1 {
+  margin: 0 0 0px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  padding: 10px 15px 8px;
+  font-size: 5rem;
+  text-decoration-color: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.home h3 {
+  color: white;
+}
+
+.home-content button {
+  /* background-color: rgb(75, 99, 217); */
+  background-color: #076c85; 
+  border: none;
+  display: inline;
+  position: relative;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; 
+  margin-top: 10vh; 
+}
+
+
+.home-content button:hover {
+  background-color: #ea33a6;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+  .home {
+    background-attachment: scroll;
+  }
+}
